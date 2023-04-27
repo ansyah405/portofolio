@@ -111,6 +111,23 @@ section::before {
 #work-3:hover::after {
   content: "Web";
 }
+
+.contact {
+  padding-bottom: 128px;
+}
+
+.contact::before {
+  content: "Contact";
+}
+
+.contact-form {
+  border: 1px solid black;
+  padding: 64px 32px;
+}
+.form-label {
+  font-weight: 500;
+}
+
 @keyframes upDown {
   0% {
     transform: translateY(0);
